@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Turist guide med Mapbox</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+    <main>
+        <nav id="nav">
+            <article data-lng="-0.124636" data-lat="51.500930">
+                <h1>Westminster</h1>
+                <p>Westminster Abbey er Storbritannias tradisjonelle kroningskirke</p>
+            </article>
+            <article data-lng="-0.119543" data-lat="51.503544">
+                <h1>London Eye</h1>
+                <p>London Eye er et stort pariserhjul som ligger like ved Themsen i London.</p>
+            </article>
+            <article data-lng="-0.075896" data-lat="51.508326">
+                <h1>Tower i London</h1>
+                <p>Her Majesty's Royal Palace and Fortress of The Tower of London er en borg i London</p>
+            </article>
+        </nav>
+        <div id="map"></map>
+    </main>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.js'></script>
+    <script src="index.js"></script>    
+</body>
+</html>

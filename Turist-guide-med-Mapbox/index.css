@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+h1 {
+    font-size: 1.25rem;
+    pointer-events: none;
+}
+
+p {
+    margin-top: 0;
+    pointer-events: none;
+}
+
+nav {    
+    overflow: auto;
+    background-color: #eee;
+}
+
+
+nav article {
+
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background-color: steelblue;
+    color: white;
+    
+}
+
+nav article:nth-child(even) {
+    background-color: salmon;
+}
